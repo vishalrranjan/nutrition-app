@@ -1,2 +1,2 @@
 # nutrition-app
-Created with CodeSandbox
+### you can calculate your recipe by clicking on food item.
