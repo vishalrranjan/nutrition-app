@@ -1,0 +1,15 @@
+.line {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  width: 270px;
+  border: 1px solid black;
+  color: rgb(57, 10, 228);
+  cursor: pointer;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

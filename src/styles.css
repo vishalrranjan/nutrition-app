@@ -1,0 +1,8 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(87, 190, 118, 0.781);
+}
+.heading {
+  border: 3px salmon;
+}
