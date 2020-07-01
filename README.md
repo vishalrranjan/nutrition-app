@@ -6,7 +6,7 @@
 * [Vishal ranjan](http://ranjanvishal.tech)
 
 #  >>>>>>>>>>>> TUTORIAL FOR DEPLOYING <<<<<<<<<<<
-### Deploying a React App* to GitHub Pages
+### Deploying a *React App* to GitHub Pages
 
 \* created using `create-react-app`
 
