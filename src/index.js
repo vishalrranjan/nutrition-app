@@ -14,22 +14,33 @@ function Header(props) {
 class App extends React.Component {
   state = {
     totalcalorie: 0
+    // searchWord: ""
   };
   onClickHandler = calories => {
     this.setState({ totalcalorie: calories + this.state.totalcalorie });
+    this.setState({ searchWord: "" });
   };
   reset = () => {
     this.setState({ totalcalorie: 0 });
   };
+  // searchHandler = e => {
+  //   this.setState({ searchWord: e.target.value.toLowerCase() });
+  // };
 
   render() {
     return (
       <div className="App">
         <Header heading={"List of food item"} />
+        {/* <input
+          type="search"
+          placeholder="Type A Name Here....."
+          onChange={this.searchHandler}
+        /> */}
         <p>Click on Item to calculate calorie </p>
         <FoodList
           calorieData={calorieData}
           calorieHandle={this.onClickHandler}
+          searchWords={this.searchWord}
         />
         <h2>Total Calories :{this.state.totalcalorie}</h2>
         <button onClick={this.reset}>Re-Calculate</button>

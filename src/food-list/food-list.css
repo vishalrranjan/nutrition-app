@@ -1,15 +1,23 @@
 .line {
   display: flex;
-  justify-content: center;
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-  width: 270px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 280px;
+  height: 60vh;
   border: 1px solid black;
   color: rgb(57, 10, 228);
   cursor: pointer;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.table-data {
+  display: flex;
+  justify-content: center;
+}
+tr {
+  border-bottom: 1px solid #efefef;
 }
 .align {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
 }
