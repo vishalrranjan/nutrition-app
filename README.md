@@ -1,8 +1,12 @@
-# nutrition-app
-## you can calculate your recipe by clicking on food item.
+# Project's Briefly Description :-
+#### Name:  Nutrition App 
+#### About: you can calculate your recipe by clicking on food item.
+## For more Details and more Project visit on my portfolio. 
+* visit here 'http://ranjanvishal.tech/' or 
+* [Vishal ranjan](http://ranjanvishal.tech)
 
-#                                                   TUTORIAL FOR DEPLOYING
-# Deploying a React App* to GitHub Pages
+#  >>>>>>>>>>>> TUTORIAL FOR DEPLOYING <<<<<<<<<<<
+### Deploying a React App* to GitHub Pages
 
 \* created using `create-react-app`
 
