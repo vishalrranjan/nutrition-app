@@ -1,23 +1,27 @@
 {
+  "homepage": "http://vishalrranjan.github.io/nutrition-app",
   "name": "nutrition-app",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-hooks": "1.0.1",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
